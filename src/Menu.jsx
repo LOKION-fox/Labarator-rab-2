@@ -1,7 +1,7 @@
 import { NavLink, Link } from "react-router-dom";
 import { useContext } from "react";
 import { ThemeContext } from "./ThemeContext";
-import { useCart } from "./CartC"; // изменено
+import { useCart } from "./CartC"; 
 
 function Menu() {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -59,6 +59,7 @@ function Menu() {
 }
 
 export default Menu;
+
 
 
 
